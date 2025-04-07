@@ -1,0 +1,28 @@
+@use "_fonts" as *;
+
+@mixin heading-font {
+    font-family: $font-heading;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@mixin font-text($weight: 400, $slant: 0) {
+    font-family: $font-text;
+    font-variation-settings: "wght" #{$weight}, "slnt" #{$slant};
+    font-weight: normal; // prevents weight conflict
+  }
+
+@mixin btn-pill($bg, $color, $border: null) {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 200px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: $bg;
+    color: $color;
+    border: if($border != null, $border, none);
+    transition: all 0.3s ease;
+  }
+  

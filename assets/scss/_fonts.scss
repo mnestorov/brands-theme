@@ -1,0 +1,14 @@
+// --------------------------------------
+// TYPOGRAPHY VARIABLES
+// --------------------------------------
+
+$font-heading: "ivypresto-headline", serif;
+$font-text: "inter-variable", sans-serif;
+
+// --------------------------------------
+// HEADING STYLES
+// --------------------------------------
+
+h1 {
+    font-family: $font-heading;
+}
