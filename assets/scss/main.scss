@@ -371,6 +371,81 @@ body {
 		}
 	}
 
+	// Breakpoint: 1280px
+	@media (max-width: 1280px) {
+		.brand-hero-section {
+			gap: 80px;
+
+			.hero-left {
+				width: 400px;
+				height: auto;
+
+				.hero-left-inner {
+					h1 {
+						font-size: 48px;
+						line-height: 1.2;
+					}
+
+					p {
+						font-size: 16px;
+						line-height: 1.5;
+					}
+
+					.btn-demo {
+						font-size: 14px;
+						padding: 10px 20px;
+					}
+				}
+			}
+
+			.hero-right {
+				.swiper {
+					.swiper-slide {
+						width: 600px;
+						height: 350px;
+
+						.slide-box {
+							width: 340px;
+							height: auto;
+
+							p {
+								font-size: 20px;
+								line-height: 28px;
+							}
+
+							.btn-explore {
+								font-size: 14px;
+								padding: 8px 16px;
+							}
+						}
+					}
+
+					.swiper-vertical-nav {
+						right: 20px;
+					}
+				}
+			}
+		}
+
+		.data-points {
+			width: 1200px;
+			height: 240px;
+
+			.point {
+				width: 200px;
+				height: 110px;
+
+				strong {
+					font-size: 56px;
+				}
+
+				span {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
 	// Breakpoint: 1024px
 	@media (max-width: 1024px) {
 		.brand-hero-section {
@@ -467,7 +542,7 @@ body {
 		 */
 		.data-points {
 			margin-top: 3rem;
-			width: 95%;
+			width: 85%;
 			height: auto;
 			padding: 2rem 1rem;
 			flex-wrap: wrap;
