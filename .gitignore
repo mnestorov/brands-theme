@@ -1,0 +1,27 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sass cache
+.sass-cache/
+
+# Compiled CSS
+assets/css/*.css
+assets/css/*.css.map
+
+# Logs and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# WordPress specific
+wp-config.php
+.htaccess
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
