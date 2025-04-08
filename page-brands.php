@@ -1,10 +1,18 @@
 <?php
-
 /**
  * Template Name: Brands Page
+ *
+ * This template is used to display the Brands page.
+ * It includes a hero section, a Swiper slider for brand posts, 
+ * and a data points section with custom fields.
+ *
+ * @package WordPress
+ * @subpackage Brands_Theme
+ * @version 1.0.0
  */
 
-get_header(); ?>
+get_header(); 
+?>
 
 <!-- Hero section for brands -->
 <div class="brand-hero-section">
