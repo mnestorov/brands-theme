@@ -15,7 +15,7 @@ get_header();
 ?>
 
 <!-- Hero section for brands -->
-<div class="brand-hero-section">
+<section class="brand-hero-section">
     <div class="hero-left">
         <div class="hero-left-inner">
             <?php
@@ -89,7 +89,18 @@ get_header();
             </div>
         </div>
     </div>
-</div>
+</section>
+
+<!-- Image Section -->
+<section class="logos-section">
+    <div class="logos-container">
+        <?php 
+        $image = get_field('logos'); // Assuming ACF field for the image
+        if ($image): ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
+    </div>
+</section>
 
 <!-- Data points section -->
 <section class="data-points">
